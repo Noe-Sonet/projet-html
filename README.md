@@ -1,6 +1,6 @@
 # projet html et css
 
-## Société d'objet encoubrand 
+## Société d'objet encombrant
 
 ## Membres du groupe : 
 
