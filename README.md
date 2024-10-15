@@ -1,8 +1,4 @@
-# projet html et css
-
-## Société d'objet encombrant
-
-## Membres du groupe : 
+# projet DevWeb
 
 - La page d'accueil a été réalisée par: [Ethan Rietz]
 - La page  de boutique a été réaliséé par : [Ibrahima Ngom]
@@ -11,4 +7,4 @@
 
 Gabin Morel et   ont travaillé ensemble sur le header/footer
 
-# Présentation du projet
+Lien du site (hébergé sur github) : 
