@@ -7,6 +7,6 @@
 - Etudiant 1 : [SONET Noé]
 - Etudiant 2 : [Gabin Morel]
 - Etudiant 3 : [Ethan Rietz]
-- Etudiant 4 : [Ibrahima]
+- Etudiant 4 : [Ibrahima Ngom]
 
 # Présentation du projet
