@@ -4,9 +4,11 @@
 
 ## Membres du groupe : 
 
-- Etudiant 1 : [SONET Noé]
-- Etudiant 2 : [Gabin Morel]
-- Etudiant 3 : [Ethan Rietz]
-- Etudiant 4 : [Ibrahima Ngom]
+- La page d'accueil a été réalisée par: [Ethan Rietz]
+- La page  de boutique a été réaliséé par : [Ibrahima Ngom]
+- Le  panier a été réalisé par : [Gabin Morel]
+- La page à propos a été réaliséé par : [Noé Sonet]
+
+Gabin Morel et   ont travaillé ensemble sur le header/footer
 
 # Présentation du projet
