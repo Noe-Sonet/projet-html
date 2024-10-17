@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333; 
+    padding: 10px 20px; 
+    overflow: hidden;
+   
+}
+
+.man {
+    height: 50px; 
+    width: auto; 
+    margin-right: 20px; 
+}
+
+.navbar a ,div{
+    display: flex;
+    align-items: center;
+    color: white; /* Couleur du texte */
+    text-decoration: none;
+    padding: 10px 15px; /* Ajoute du padding autour du texte */
+    margin: 0 5px; /* Ajoute de l'espace entre les liens */
+    transition: background-color 0.3s, color 0.3s; /* Animation douce pour le changement de couleur */
+}
+.navbar a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    color: #ffd700; /* Couleur du texte au survol (doré dans cet exemple) */
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li {
+    display: inline;
+    
+}
+
+.square {
+    transition: background-color 0.3s;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.square:hover {
+    transform: scale(1.1);
+}
+.square::after {
+    content: attr(data-color); /* Récupère la valeur du data-color */
+    position: absolute;
+    bottom: -1px;
+    left: 1000%;
+    transform: translateX(-50%);
+    color: blueviolet;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 3px;
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+.square:hover::after {
+    opacity: 1;
+}
