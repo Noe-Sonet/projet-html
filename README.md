@@ -1,5 +1,8 @@
 # projet DevWeb
 
+Notre site](https://noe-sonet.github.io/projet-html.github.io/) 
+
+
 - La page d'accueil a été réalisée par: [Ethan Rietz]
 - La page  de boutique a été réaliséé par : [Ibrahima Ngom]
 - Le  panier a été réalisé par : [Gabin Morel]
