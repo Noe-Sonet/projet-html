@@ -11,3 +11,6 @@ Notre site](https://noe-sonet.github.io/projet-html.github.io/)
 Gabin Morel et   ont travaillé ensemble sur le header/footer
 
 Lien du site (hébergé sur github) : 
+
+
+[Notre site](https://noe-sonet.github.io/projet-html.github.io/) 
