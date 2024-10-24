@@ -192,6 +192,35 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+@media (max-width: 1223px){
+
+    .container{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 1300px;
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .container-item{
+        width: 32%;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 1px gray;
+        height: 380px;
+        border-radius: 15px;
+       
+    }
+    .container-item-img img{
+        display: block;
+        height: 250px;
+        max-width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+}
 @media (max-width: 960px){
 
     .container{
