@@ -165,12 +165,12 @@ button.buy{
    padding: 8px;
    width: 250px;
    border-radius: 10px;
-   background: linear-gradient(to bottom,  #38BCCC 0%,#88EA9D 100%);;
+   background-color: #4cbcfe;
    font-size: 1.2rem;
    font-weight: bold;
 }
 button.buy:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 .material-symbols-outlined {
     margin-left: 5px;
