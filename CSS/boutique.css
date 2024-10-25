@@ -309,6 +309,7 @@ footer {
     }
 
 }
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -316,18 +317,38 @@ footer {
 
     .nav-links {
         margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
     }
 
     .nav-links li {
         margin: 0.5rem 0;
     }
 
-    .features {
-        flex-direction: column;
-        align-items: center;
+    .about-section {
+        text-align: center;
     }
-
-    .feature {
-        margin-bottom: 2rem;
+    div.texteintro{
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+        background-color: #4cbcfe;
+        padding: 12px;
+        border-radius: 10px;
+       
+    }
+    button.titre{
+        margin-top: 240px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,  #38BCCC 0%,#88EA9D 100%);;
+        color: black;
+        font-weight: bold;
     }
 }
