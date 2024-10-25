@@ -1,7 +1,7 @@
 # projet DevWeb
 
 - La page d'accueil a été réalisée par: [Ethan Rietz]
-- La page  de boutique a été réaliséé par : [Ibrahima Ngom]
+- La page  de boutique (produits ) a été réaliséé par : [Ibrahima Ngom]
 - Le  panier a été réalisé par : [Gabin Morel]
 - La page à propos a été réaliséé par : [Noé Sonet]
 
