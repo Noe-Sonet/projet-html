@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Maxi Volume</title>
+    <link rel="stylesheet" href="CSS/inscription.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img class="logo" src="image/logo.jpg" alt="Logo Maxi Volume">
+                <div class="nom-entreprise">Maxi Volume</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À Propos</a></li>
+                <li><a href="boutique.html">Produits</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#" class="btn-signup active">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="inscription-container">
+            <h1>Inscription</h1>
+            <form class="inscription-form">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirmer le mot de passe</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="btn-submit">S'inscrire</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <h3>Suivez-nous</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="image/x-icon.png" alt="X"> x</a></li>
+                    <li><a href="#"><img src="image/instagram-icon.png" alt="Instagram">Instagram</a></li>
+                    <li><a href="#"><img src="image/facebook-icon.png" alt="Facebook"> Facebook </a></li>
+                    <li><a href="#"><img src="image/youtube-icon.png" alt="YouTube"> </a>YouTube</li>
+                    <li><a href="#"><img src="image/tiktok-icon.png" alt="TikTok"></a>TikTok</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Adresse : 19 Avenue du Maréchal Juin, 900016 Belfort</li>
+                    <li>Téléphone : 06 85 46 62 99</li>
+                    <li>Email : contact@maxivolume.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-rights">&copy; 2024 Maxi Volume. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
