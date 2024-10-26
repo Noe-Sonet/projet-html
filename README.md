@@ -5,7 +5,7 @@
 - Le  panier a été réalisé par : [Gabin Morel]
 - La page à propos a été réaliséé par : [Noé Sonet]
 
-Gabin Morel et   ont travaillé ensemble sur le header/footer
+Gabin Morel et Ethan Rietz ont travaillé ensemble sur le header/footer
 
 Lien du site (hébergé sur github) : 
 
