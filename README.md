@@ -7,6 +7,8 @@
 
 Gabin Morel et Ethan Rietz ont travaillé ensemble sur le header/footer
 
+Noé Sonet a travaillé sur les pages de Connexion et d'Inscription
+
 Lien du site (hébergé sur github) : 
 
 
