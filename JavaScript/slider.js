@@ -26,3 +26,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// Fonction de défilement automatique
+function autoSlides() {
+  plusSlides(1);
+}
+
+// Lancer le défilement automatique toutes les 3 secondes
+setInterval(autoSlides, 7000);
