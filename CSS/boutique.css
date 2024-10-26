@@ -66,12 +66,7 @@ a{
     background-color: #c0392b;
 }
 
-header{
-    height: 50px;
-    background-color: yellow;
-    margin-top: 0;
-    text-align: center;
-}
+
 div.texteintro{
     width: 60%;
     margin-left: auto;
@@ -129,7 +124,7 @@ option{
     flex-wrap: wrap;
     gap: 50px;
     height: 800px;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     /* background-color: yellow; */
@@ -194,9 +189,77 @@ button.buy:hover{
 footer {
     background-color: #2c3e50;
     color: #ecf0f1;
-    text-align: center;
-    padding: 1rem;
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+
+.social-media,
+.contact-info {
+    flex: 1;
+}
+
+h3 {
+    margin-top: 0;
+    color: #3498db;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li,
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.social-links li img,
+.contact-info li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.social-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+.footer-rights {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #34495e;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
 @media (max-width: 1223px){
 
     .container{
@@ -345,7 +408,7 @@ footer {
        
     }
     button.titre{
-        margin-top: 240px;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         margin-left: auto;
@@ -356,4 +419,16 @@ footer {
         color: black;
         font-weight: bold;
     }
+
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .social-media,
+        .contact-info {
+            width: 100%;
+        }
+    
 }
