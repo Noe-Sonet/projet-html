@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Maxi Volume</title>
+    <link rel="stylesheet" href="CSS/connexion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-box">
+                <img class="logo" src="image/logo.jpg" alt="Logo Maxi Volume">
+                <div class="nom-entreprise">Maxi Volume</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À Propos</a></li>
+                <li><a href="boutique.html">Produits</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="#" class="active">Connexion</a></li>
+                <li><a href="inscription.html" class="signup-button">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="login-box">
+            <h1>Connexion</h1>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="submit-button">Se connecter</button>
+            </form>
+            <div class="separator">
+                <span>ou</span>
+            </div>
+            <button class="google-button">
+                <img src="image/google-icon.png" alt="Google" class="google-icon">
+                Se connecter avec Google
+            </button>
+            <p class="signup-link">
+                Pas encore de compte ? <a href="inscription.html">S'inscrire</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>Suivez-nous</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="image/x-icon.png" alt="X"> x</a></li>
+                    <li><a href="#"><img src="image/instagram-icon.png" alt="Instagram">Instagram</a></li>
+                    <li><a href="#"><img src="image/facebook-icon.png" alt="Facebook"> Facebook </a></li>
+                    <li><a href="#"><img src="image/youtube-icon.png" alt="YouTube"> </a>YouTube</li>
+                    <li><a href="#"><img src="image/tiktok-icon.png" alt="TikTok"></a>TikTok</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Adresse : 19 Avenue du Maréchal Juin, 900016 Belfort</li>
+                    <li>Téléphone : 06 85 46 62 99</li>
+                    <li>Email : contact@maxivolume.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 Maxi Volume. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
