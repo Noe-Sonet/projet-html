@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxi Volume - Vos objets encombrants</title>
-    <link rel="stylesheet" href="CSS/accueil.css">
+    <title>Maxi Volume - Panier</title>
     <link rel="stylesheet" href="CSS/panier.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
@@ -19,13 +18,43 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="apropos.html">À Propos</a></li>
                 <li><a href="boutique.html">Produits</a></li>
-                <li><a href="panier.html"  class="active">Panier</a></li>
+                <li><a href="panier.html" class="active">Panier</a></li>
                 <li><a href="#">Connexion</a></li>
                 <li><a href="#" class="btn-signup">Inscription</a></li>
             </ul>
         </nav>
     </header>
 
-    
+    <main>
+        <section class="cart-container">
+            <h1>Votre Panier</h1>
+            <div class="cart-item">
+                <img src="image/meuble_gris.webp" alt="Meuble gris" class="item-img">
+                <div class="item-details">
+                    <p class="item-name">Meuble gris</p>
+                    <p class="item-price">800 €</p>
+                    <input type="number" value="1" class="item-quantity">
+                    <button class="remove-btn">Retirer</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="image/pelouche.jpeg" alt="Peluche gigantesque" class="item-img">
+                <div class="item-details">
+                    <p class="item-name">Peluche gigantesque</p>
+                    <p class="item-price">450 €</p>
+                    <input type="number" value="1" class="item-quantity">
+                    <button class="remove-btn">Retirer</button>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <p>Total : <span class="total-price">1250 €</span></p>
+                <button class="pay-btn">Payer</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Maxi Volume. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
