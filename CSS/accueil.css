@@ -324,6 +324,114 @@ footer ul {
   margin: 0;
 }
 
+/* 
+==================================================================================
+                                    Responsive 
+================================================================================== 
+*/
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .nav-links {
+      margin-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-links li {
+      margin: 0.5rem 0;
+  }
+
+  .about-section {
+      text-align: center;
+  }
+  div.texteintro{
+      margin-top: 50px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height:auto;
+      background-color: #4cbcfe;
+      padding: 12px;
+      border-radius: 10px;
+
+  }
+  button.titre{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 240px;
+      border-radius: 10px;
+      background: linear-gradient(to bottom,  #38BCCC 0%,#88EA9D 100%);;
+      color: black;
+      font-weight: bold;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .social-media,.contact-info {
+      width: 100%;
+  }
+
+}
+
+.text1 {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30%;
+  margin-left:27% ;
+  text-align: center;
+  background-color: #333;
+  opacity: 80%;
+  border-radius: 10px;
+}
+.text2 {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30%;
+  margin-left:34% ;
+  text-align: center;
+  background-color: #333;
+  opacity: 80%;
+  border-radius: 10px;
+}
+.text3 {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30%;
+  margin-left:33% ;
+  text-align: center;
+  background-color: #333;
+  opacity: 80%;
+  border-radius: 10px;
+
+}
+
+.btn-slide{
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 40% ;
+  
+}
+
 
 
 
