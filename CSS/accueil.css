@@ -125,6 +125,20 @@ footer {
     padding: 1rem;
 }
 
+
+
+.principale{
+    display: block;
+    background-color: #4cbcfe;
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
